@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jquery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- Java Script -->
+    <script src="main.js"></script>
+    <!-- Style Sheet -->
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    
+    <div class="pageContainer">
+        
+        <div class="card">
+            <h1>Rock Paper Scissors!</h1>
+
+            <div class="screen">
+                <h2 class="botDialogue">My choice is...</h2>
+                <img class="botChoiceImg" src="https://static.vecteezy.com/system/resources/previews/012/174/061/original/3d-question-mark-free-png.png">
+            </div>
+    
+    
+            <div class="column">
+    
+                <div class="imageContainer">
+                    <h4> Rock </h4>
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c782e4c-fae0-4a87-b7b1-a752598d9df9/dapcda8-a40765e9-0853-4505-99fb-819a854c8532.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBjNzgyZTRjLWZhZTAtNGE4Ny1iN2IxLWE3NTI1OThkOWRmOVwvZGFwY2RhOC1hNDA3NjVlOS0wODUzLTQ1MDUtOTlmYi04MTlhODU0Yzg1MzIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.FrF1hdrXyFcyNWhTeya9mFxMhH0hJj5T55H6BCsghX0">
+                    <button class="rock" onclick="pick(1)">Pick</button>
+                </div>
+        
+                <div class="imageContainer">
+                    <h4> Paper </h4>
+                    <img src="https://www.pngkey.com/png/full/94-949677_stack-of-paper-png-crumpled-paper-1080-p.png">
+                    <button class="paper" onclick="pick(2)">Pick</button>
+                </div>
+                
+                <div class="imageContainer">
+                    <h4> Scissors </h4>
+                    <img src="https://wikiclipart.com/wp-content/uploads/2016/10/Free-clip-art-scissors-clipart.png">
+                    <button class="scissors" onclick="pick(3)">Pick</button>
+                </div>
+        
+                <div class="imageContainer">
+                    <h4> Your Choice: </h4>
+                    <img class="yourChoice" src="https://static.vecteezy.com/system/resources/previews/012/174/061/original/3d-question-mark-free-png.png">
+                    <button class="rock" onclick="go()">Go!</button>
+                </div>
+        
+            </div>
+    
+        </div>
+
+    </div>
+
+</body>
+
+</html>
